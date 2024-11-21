@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Result</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            background-color: #ff83b6;
+            color: #33001c;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+        img {
+            margin: 20px auto;
+            max-width: 200px;
+            height: auto;
+            border: 2px solid #33001c;
+            border-radius: 10px;
+        }
+        button {
+            background-color: #ff9dbe;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your QR Code</h1>
+    <img src="{{ qr_code_path }}" alt="QR Code">
+    <div class="buttons">
+        <form action="/download_qr_code" method="get">
+            <button type="submit">Download QR Code</button>
+        </form>
+        <form action="/upload_image" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit">Upload Image</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            background-color: #ff83b6;
+            color: #33001c;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 5em;
+        }
+        form {
+            margin: 20px auto;
+            max-width: 400px;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 2px solid #33001c;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #ff9dbe;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ffcaca;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: #ff83b6;
+            color: #ffd48b;
+            padding: 10px 0;
+            font-size: 2 em;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    <form action="/generate" method="post">
+        <input type="text" name="input_text" placeholder="Enter URL or Text" required>
+        <br>
+        <button type="submit">Generate QR Code</button>
+    </form>
+    <footer>
+        Made with ♥ by Tanya
+    </footer>
+</body>
+</html>
