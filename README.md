@@ -1,4 +1,4 @@
-# QR Code Generator with Custom Input and User Interaction
+<img width="843" alt="Screenshot 2024-11-22 at 3 44 12 PM" src="https://github.com/user-attachments/assets/78bf00c5-32ff-47ab-8b28-72a54b554e55"># QR Code Generator with Custom Input and User Interaction
 
 This project is a simple web-based QR Code Generator built using Python (Flask framework) and HTML/CSS for the frontend. It allows users to generate QR codes by entering a URL and provides additional functionality to overlay custom images on the QR code.
 
@@ -8,6 +8,7 @@ This project is a simple web-based QR Code Generator built using Python (Flask f
 - **Custom Image Overlay**: Automatically fetches the favicon of the entered URL or allows the user to upload an image if the favicon is unavailable.
 - **Download Option**: Users can download the generated QR code with or without a custom image.
 - **Simple and User-Friendly Interface**: Designed with a clean and modern UI.
+![Uploading Screenshot 2024-11-22 at 3.44.37 PM.png…]()
 
 ## Technologies Used
 
