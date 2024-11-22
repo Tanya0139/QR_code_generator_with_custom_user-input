@@ -8,8 +8,7 @@ This project is a simple web-based QR Code Generator built using Python (Flask f
 - **Custom Image Overlay**: Automatically fetches the favicon of the entered URL or allows the user to upload an image if the favicon is unavailable.
 - **Download Option**: Users can download the generated QR code with or without a custom image.
 - **Simple and User-Friendly Interface**: Designed with a clean and modern UI.
-![Uploading Screenshot 2024-11-22 at 3.44.37 PM.png…]()
-
+- 
 ## Technologies Used
 
 - **Backend**: Python, Flask
@@ -81,6 +80,7 @@ You can deploy this project on any platform supporting Python and Flask, such as
 Follow the hosting platform’s instructions for deploying Flask applications.
 
 ## Screenshots
+<img width="841" alt="Screenshot 2024-11-22 at 3 44 37 PM" src="https://github.com/user-attachments/assets/18cf91b0-afb2-4db3-a378-3f1eeb4d1408">
 
 - **Homepage**:
   - Enter the URL in the input box to generate a QR code.
